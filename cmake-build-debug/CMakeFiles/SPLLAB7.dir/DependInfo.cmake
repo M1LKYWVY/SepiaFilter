@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/cygdrive/c/Users/Dreamer/Development/CLionProjects/SPLLAB7/main.c" "/cygdrive/c/Users/Dreamer/Development/CLionProjects/SPLLAB7/cmake-build-debug/CMakeFiles/SPLLAB7.dir/main.c.o"
+  "/cygdrive/c/Users/Dreamer/Development/CLionProjects/SPLLAB7/sepia.c" "/cygdrive/c/Users/Dreamer/Development/CLionProjects/SPLLAB7/cmake-build-debug/CMakeFiles/SPLLAB7.dir/sepia.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

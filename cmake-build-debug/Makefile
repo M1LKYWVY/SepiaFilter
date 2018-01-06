@@ -150,6 +150,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/SPLLAB7.dir/build.make CMakeFiles/SPLLAB7.dir/main.c.s
 .PHONY : main.c.s
 
+sepia.o: sepia.c.o
+
+.PHONY : sepia.o
+
+# target to build an object file
+sepia.c.o:
+	$(MAKE) -f CMakeFiles/SPLLAB7.dir/build.make CMakeFiles/SPLLAB7.dir/sepia.c.o
+.PHONY : sepia.c.o
+
+sepia.i: sepia.c.i
+
+.PHONY : sepia.i
+
+# target to preprocess a source file
+sepia.c.i:
+	$(MAKE) -f CMakeFiles/SPLLAB7.dir/build.make CMakeFiles/SPLLAB7.dir/sepia.c.i
+.PHONY : sepia.c.i
+
+sepia.s: sepia.c.s
+
+.PHONY : sepia.s
+
+# target to generate assembly for a file
+sepia.c.s:
+	$(MAKE) -f CMakeFiles/SPLLAB7.dir/build.make CMakeFiles/SPLLAB7.dir/sepia.c.s
+.PHONY : sepia.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sepia.o"
+	@echo "... sepia.i"
+	@echo "... sepia.s"
 .PHONY : help
 
 

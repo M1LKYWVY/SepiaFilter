@@ -3,4 +3,4 @@ project(SPLLAB7 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(SPLLAB7 main.c)
+add_executable(SPLLAB7 main.c sepia.h sepia.c)

@@ -42,9 +42,9 @@ image_t sepia(image_t source)
 
             pixel_t temp = source.data[i];
             uint8_t b = temp.b, g = temp.g, r = temp.r;
-            temp.b = CHECK((b * 0.131f + g * 0.534f + r * 0.272f));
-            temp.g = CHECK((b * 0.168f + g * 0.686f + r * 0.349f));
-            temp.r = CHECK((b * 0.189f + g * 0.769f + r * 0.393f));
+            temp.b = (uint8_t) CHECK((b * 0.131f + g * 0.534f + r * 0.272f));
+            temp.g = (uint8_t) CHECK((b * 0.168f + g * 0.686f + r * 0.349f));
+            temp.r = (uint8_t) CHECK((b * 0.189f + g * 0.769f + r * 0.393f));
             rotate[i] = temp;
 
     }
